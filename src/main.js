@@ -3,15 +3,13 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import THREE from 'three'
+// import THREE from 'three'
 Vue.config.productionTip = false
-const scene=new THREE.Scene();
+// const scene=new THREE.Scene();
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
-  THREE,
-  scene,
   components: { App },
   template: '<App/>'
 })

@@ -5,12 +5,16 @@
 </template>
 
 <script>
+  import THREE from "@/common/three"
 export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'lemon`s WebGl'
     }
+  },
+  methods:{
+
   }
 }
 </script>
